@@ -1,5 +1,6 @@
 # Getting Started with Unity - Code Snippet
 
+Folder Structure
 ```
 Assets
     └── prefabs
@@ -13,6 +14,9 @@ Assets
 ## 2. Game scene
 ## 3. UI, Audio, Particles and Assets
 ## 4. Code Refactor
+
+---  
+
 
 ## 1. Decide Player Object
 
@@ -59,6 +63,8 @@ void OnTriggerEnter(Collider other){
 
 
 ```
+---
+
 
 ## 2. Game scene
 **1. Game Type (Level Based or Infinite)**  
@@ -141,6 +147,7 @@ public GameObject player;
 
     }
 ```
+---
 
 ## 3. UI, Audio, Particles and Assets
 
@@ -155,6 +162,7 @@ playerAudio.PlayOneShot(explodeSound, 1.0f);
 
 ```
 
+---
 
 ## 4. Code Refactor
 
@@ -307,7 +315,7 @@ public void OnLevelComplete()
 }
 
 ```
-
+---
 
 ### Further Unity Samples
 https://github.com/michidk/Unity-Script-Collection 
